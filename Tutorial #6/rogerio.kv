@@ -1,0 +1,10 @@
+<Incrementador>:
+    orientation: 'vertical'
+    Button:
+        text:'Incrementar'
+        font_size: 30
+        on_release: tst.text = str(int(tst.text+1))
+    Label:
+        id: tst
+        text: '1'
+        font_size: 30
